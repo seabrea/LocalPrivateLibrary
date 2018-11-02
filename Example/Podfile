@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LocalPrivateLibrary_Example' do
+  pod 'LocalPrivateLibrary', :path => '../'
+
+  target 'LocalPrivateLibrary_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

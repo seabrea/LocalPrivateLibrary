@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LocalPrivateLibrary (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LocalPrivateLibrary (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LocalPrivateLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LocalPrivateLibrary: e03b8b34115183a794712315f071db3bc6481a65
+
+PODFILE CHECKSUM: 1fea4d01c4e3b3dc45e8d2716de3a0874e68ad48
+
+COCOAPODS: 1.5.0
